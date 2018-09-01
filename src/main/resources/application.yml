@@ -1,11 +1,13 @@
 server:
-  port: 5000
+  port: 8888
+
 spring:
+  application:
+    name: configserver
   profiles:
     active: native
   cloud:
     config:
-      name: configserver
       server:
         native:
           searchLocations: classpath:config/discovery
