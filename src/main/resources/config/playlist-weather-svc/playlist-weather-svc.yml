@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+open-weather-map:
+  url: api.openweathermap.org/data/2.5
+  api-key: d98501ab6b2f7a380f7887338de29536
+  unit: metric
